@@ -1,3 +1,7 @@
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"], {
@@ -47,7 +51,27 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<!--The content below is only a placeholder and can be replaced.-->\n<div style=\"text-align:center\">\n  <h1>\n    Welcome to {{ title }}!\n  </h1>\n  <img width=\"300\" alt=\"Angular Logo\" src=\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==\">\n</div>\n<h2>Here are some links to help you start: </h2>\n<ul>\n  <li>\n    <h2><a target=\"_blank\" rel=\"noopener\" href=\"https://angular.io/tutorial\">Tour of Heroes</a></h2>\n  </li>\n  <li>\n    <h2><a target=\"_blank\" rel=\"noopener\" href=\"https://angular.io/cli\">CLI Documentation</a></h2>\n  </li>\n  <li>\n    <h2><a target=\"_blank\" rel=\"noopener\" href=\"https://blog.angular.io/\">Angular blog</a></h2>\n  </li>\n</ul>\n\n<router-outlet></router-outlet>\n";
+    __webpack_exports__["default"] = "<router-outlet></router-outlet>\n";
+    /***/
+  },
+
+  /***/
+  "./node_modules/raw-loader/dist/cjs.js!./src/app/home/home.component.html":
+  /*!********************************************************************************!*\
+    !*** ./node_modules/raw-loader/dist/cjs.js!./src/app/home/home.component.html ***!
+    \********************************************************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function node_modulesRawLoaderDistCjsJsSrcAppHomeHomeComponentHtml(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "<nav class=\"navbar navbar-expand-lg navbar-dark bg-primary fixed-top\" id=\"sideNav\">\n    <a class=\"navbar-brand js-scroll-trigger\" href=\"#page-top\">\n        <span class=\"d-block d-lg-none\">Kenneth Huang - <span style=\"letter-spacing: 0.2rem;\">黃鑫</span></span>\n        <span class=\"d-none d-lg-block\">\n        <img style=\"opacity: 0.88;\" class=\"img-fluid img-profile rounded-circle mx-auto mb-2\" src=\"../../assets/images/profile.jpg\" alt=\"\">\n      </span>\n    </a>\n    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n        <span class=\"navbar-toggler-icon\"></span>\n    </button>\n    <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n        <ul class=\"navbar-nav\">\n            <li class=\"nav-item\">\n                <a class=\"nav-link js-scroll-trigger\" href=\"#about\">About</a>\n            </li>\n            <li class=\"nav-item\">\n                <a class=\"nav-link js-scroll-trigger\" href=\"#experience\">Experience</a>\n            </li>\n            <li class=\"nav-item\">\n                <a class=\"nav-link js-scroll-trigger\" href=\"#education\">Education</a>\n            </li>\n            <li class=\"nav-item\">\n                <a class=\"nav-link js-scroll-trigger\" href=\"#skills\">Skills</a>\n            </li>\n            <li class=\"nav-item\">\n                <a class=\"nav-link js-scroll-trigger\" href=\"#interests\">Interests</a>\n            </li>\n        </ul>\n    </div>\n</nav>\n\n<div class=\"container-fluid p-0\">\n\n    <section class=\"resume-section p-3 p-lg-5 d-flex align-items-center\" id=\"about\">\n        <div class=\"w-100\">\n            <h1 class=\"mb-0\">Kenneth\n                <span class=\"text-primary\">Huang</span>\n            </h1>\n            <div class=\"subheading mb-5\">Auckland · New Zealand ·\n                <a href=\"mailto:kennethhuang31@outlook.com\">kennethhuang31@outlook.com</a>\n            </div>\n            <p class=\"lead mb-5\">\n                A well-experienced web developer with a variety of exciting projects.\n                A strong passion for learning new skills and handling challenges.\n            </p>\n            <div class=\"social-icons\">\n                <a href=\"https://www.linkedin.com/in/kennethhuang31\" target=\"_blank\">\n                    <i class=\"fab fa-linkedin-in\"></i>\n                </a>\n                <a href=\"https://github.com/kennethhuang31\" target=\"_blank\">\n                    <i class=\"fab fa-github\"></i>\n                </a>\n            </div>\n        </div>\n    </section>\n\n    <hr class=\"m-0\">\n\n    <section class=\"resume-section p-3 p-lg-5 d-flex justify-content-center\" id=\"experience\">\n        <div class=\"w-100\">\n            <h2 class=\"mb-5\">Experience</h2>\n\n            <div class=\"resume-item d-flex flex-column flex-md-row justify-content-between mb-5\">\n                <div class=\"resume-content\">\n                    <h3 class=\"mb-0\">Front-end Developer</h3>\n                    <div class=\"subheading mb-3\">Gradspace Ltd</div>\n                    <p>\n                        •\tParticipate in requirements analysis discussion with Gradspace customers<br>\n                        •\tDevelop the product and service as a front-end developer\n                    </p>\n                </div>\n                <div class=\"resume-date text-md-right\">\n                    <span class=\"text-primary\">December 2019 - Present</span>\n                </div>\n            </div>\n\n            <div class=\"resume-item d-flex flex-column flex-md-row justify-content-between mb-5\">\n                <div class=\"resume-content\">\n                    <h3 class=\"mb-0\">Full Stack PHP Developer - Internship</h3>\n                    <div class=\"subheading mb-3\">PCA Express Pty Ltd</div>\n                    <p>\n                        •\tDeveloped a price searching web system for delivery choices<br>\n                        •\tDesigned an address selection and validation module for a shopping system\n                    </p>\n                </div>\n                <div class=\"resume-date text-md-right\">\n                    <span class=\"text-primary\">December 2018 - March 2019</span>\n                </div>\n            </div>\n\n        </div>\n\n    </section>\n\n    <hr class=\"m-0\">\n\n    <section class=\"resume-section p-3 p-lg-5 d-flex align-items-center\" id=\"education\">\n        <div class=\"w-100\">\n            <h2 class=\"mb-5\">Education</h2>\n\n            <div class=\"resume-item d-flex flex-column flex-md-row justify-content-between mb-5\">\n                <div class=\"resume-content\">\n                    <h3 class=\"mb-0\">The University of New South Wales</h3>\n                    <div class=\"subheading mb-3\">Master of Information Technology</div>\n                    <div></div>\n                    <p></p>\n                </div>\n                <div class=\"resume-date text-md-right\">\n                    <span class=\"text-primary\">February 2018 - December 2019</span>\n                </div>\n            </div>\n\n            <div class=\"resume-item d-flex flex-column flex-md-row justify-content-between\">\n                <div class=\"resume-content\">\n                    <h3 class=\"mb-0\">Wuhan Polytechnic University </h3>\n                    <div class=\"subheading mb-3\">Bachelor of Software Engineering</div>\n                    <p></p>\n                </div>\n                <div class=\"resume-date text-md-right\">\n                    <span class=\"text-primary\">September 2013 - July 2017</span>\n                </div>\n            </div>\n\n        </div>\n    </section>\n\n    <hr class=\"m-0\">\n\n    <section class=\"resume-section p-3 p-lg-5 d-flex align-items-center\" id=\"skills\">\n        <div class=\"w-100\">\n            <h2 class=\"mb-5\">Skills</h2>\n\n            <div class=\"subheading mb-3\">Programming Languages &amp; Tools</div>\n            <ul class=\"list-inline dev-icons\">\n                <li class=\"list-inline-item\">\n                    <i class=\"fab fa-html5\"></i>\n                </li>\n                <li class=\"list-inline-item\">\n                    <i class=\"fab fa-css3-alt\"></i>\n                </li>\n                <li class=\"list-inline-item\">\n                    <i class=\"fab fa-js-square\"></i>\n                </li>\n                <li class=\"list-inline-item\">\n                    <i class=\"fab fa-angular\"></i>\n                </li>\n                <li class=\"list-inline-item\">\n                    <i class=\"fab fa-react\"></i>\n                </li>\n                <li class=\"list-inline-item\">\n                    <i class=\"fab fa-sass\"></i>\n                </li>\n                <li class=\"list-inline-item\">\n                    <i class=\"fab fa-less\"></i>\n                </li>\n                <li class=\"list-inline-item\">\n                    <i class=\"fab fa-wordpress\"></i>\n                </li>\n                <li class=\"list-inline-item\">\n                    <i class=\"fab fa-npm\"></i>\n                </li>\n            </ul>\n\n            <div class=\"subheading mb-3\">Workflow</div>\n            <ul class=\"fa-ul mb-0\">\n                <li>\n                    <i class=\"fa-li fa fa-check\"></i>\n                    Mobile-First, Responsive Design</li>\n                <li>\n                    <i class=\"fa-li fa fa-check\"></i>\n                    Cross Browser Testing &amp; Debugging</li>\n                <li>\n                    <i class=\"fa-li fa fa-check\"></i>\n                    Cross Functional Teams</li>\n                <li>\n                    <i class=\"fa-li fa fa-check\"></i>\n                    Agile Development &amp; Scrum</li>\n            </ul>\n        </div>\n    </section>\n\n    <hr class=\"m-0\">\n\n    <section class=\"resume-section p-3 p-lg-5 d-flex align-items-center\" id=\"interests\">\n        <div class=\"w-100\">\n            <h2 class=\"mb-5\">Interests</h2>\n            <p>\n                Apart from being a web developer,\n                I enjoy most of my time being outdoors.\n                I like to go camping with my friends on weekends.\n            </p>\n            <p class=\"mb-0\">\n                When forced indoors, I follow a number of Youtubers who focus on topics about\n                the space, world history and unsolved puzzles. I am really a big fun of them.\n            </p>\n        </div>\n    </section>\n\n</div>\n";
     /***/
   },
 
@@ -692,8 +716,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
     /*! @angular/router */
     "./node_modules/@angular/router/fesm2015/router.js");
+    /* harmony import */
 
-    var routes = [];
+
+    var _home_home_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! ./home/home.component */
+    "./src/app/home/home.component.ts");
+
+    var routes = [{
+      path: '',
+      component: _home_home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"]
+    }];
 
     var AppRoutingModule = function AppRoutingModule() {
       _classCallCheck(this, AppRoutingModule);
@@ -760,8 +793,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var AppComponent = function AppComponent() {
       _classCallCheck(this, AppComponent);
-
-      this.title = 'kennethhuang31-github-io';
     };
 
     AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
@@ -825,17 +856,100 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     var _app_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! ./app.component */
     "./src/app/app.component.ts");
+    /* harmony import */
+
+
+    var _home_home_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    /*! ./home/home.component */
+    "./src/app/home/home.component.ts");
 
     var AppModule = function AppModule() {
       _classCallCheck(this, AppModule);
     };
 
     AppModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
-      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]],
+      declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_5__["HomeComponent"]],
       imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"]],
       providers: [],
       bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
     })], AppModule);
+    /***/
+  },
+
+  /***/
+  "./src/app/home/home.component.sass":
+  /*!******************************************!*\
+    !*** ./src/app/home/home.component.sass ***!
+    \******************************************/
+
+  /*! exports provided: default */
+
+  /***/
+  function srcAppHomeHomeComponentSass(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony default export */
+
+
+    __webpack_exports__["default"] = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2hvbWUvaG9tZS5jb21wb25lbnQuc2FzcyJ9 */";
+    /***/
+  },
+
+  /***/
+  "./src/app/home/home.component.ts":
+  /*!****************************************!*\
+    !*** ./src/app/home/home.component.ts ***!
+    \****************************************/
+
+  /*! exports provided: HomeComponent */
+
+  /***/
+  function srcAppHomeHomeComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "HomeComponent", function () {
+      return HomeComponent;
+    });
+    /* harmony import */
+
+
+    var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! tslib */
+    "./node_modules/tslib/tslib.es6.js");
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/fesm2015/core.js");
+
+    var HomeComponent = /*#__PURE__*/function () {
+      function HomeComponent() {
+        _classCallCheck(this, HomeComponent);
+      }
+
+      _createClass(HomeComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }]);
+
+      return HomeComponent;
+    }();
+
+    HomeComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+      selector: 'app-home',
+      template: tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! raw-loader!./home.component.html */
+      "./node_modules/raw-loader/dist/cjs.js!./src/app/home/home.component.html")).default,
+      styles: [tslib__WEBPACK_IMPORTED_MODULE_0__["__importDefault"](__webpack_require__(
+      /*! ./home.component.sass */
+      "./src/app/home/home.component.sass")).default]
+    })], HomeComponent);
     /***/
   },
 
